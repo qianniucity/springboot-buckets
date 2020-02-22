@@ -21,3 +21,16 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+springboot-aop/.gitignore
+springboot-aop/.mvn/
+springboot-aop/mvnw
+springboot-aop/mvnw.cmd
+springboot-async/.gitignore
+springboot-async/.mvn/
+springboot-async/mvnw
+springboot-async/mvnw.cmd
+
+logPath_IS_UNDEFINED/**
+
+
+/.idea/

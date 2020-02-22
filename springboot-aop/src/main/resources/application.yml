@@ -1,0 +1,38 @@
+##########################################################
+##################  所有profile共有的配置  #################
+##########################################################
+
+###################  项目启动端口  ###################
+
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
+
+---
+
+#####################################################################
+########################  开发环境profile  ##########################
+#####################################################################
+spring:
+  profiles:dev
+logging:
+  level:
+    root: INFO
+    com.javaniuniu: DEBUG
+  path: /Users/minp/IdeaProjects/springboot-buckets/springboot-aop/log
+
+#swagger,链接地址:http://127.0.0.1:8080/swagger-ui.html
+swagger:
+  enabled: true
+  title: javaniuniu-api
+  description: base for springboot
+  version: 1.0
+  contact:
+    name: javaniuniu
+    email: king101125s@gmail.com
+    url: http://javaniuniu.com
+  base-package:
+  base-path:
