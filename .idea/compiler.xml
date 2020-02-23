@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-aop" />
         <module name="springboot-async" />
+        <module name="springboot-batch" />
+        <module name="springboot-aop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-async" target="1.8" />
+      <module name="springboot-batch" target="1.8" />
       <module name="springboot-buckets" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -20,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-async" options="-parameters" />
+      <module name="springboot-batch" options="-parameters" />
     </option>
   </component>
 </project>

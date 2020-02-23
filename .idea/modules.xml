@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-batch/springboot-batch.iml" filepath="$PROJECT_DIR$/springboot-batch/springboot-batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-buckets.iml" filepath="$PROJECT_DIR$/springboot-buckets.iml" />
     </modules>
   </component>
