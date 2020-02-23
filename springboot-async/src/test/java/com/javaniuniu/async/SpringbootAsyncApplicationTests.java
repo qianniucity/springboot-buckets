@@ -1,5 +1,6 @@
 package com.javaniuniu.async;
 
+import com.javaniuniu.async.service.AsyncTask;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -18,5 +19,21 @@ import static org.hamcrest.Matchers.*;
 @SpringBootTest
 class SpringbootAsyncApplicationTests {
 
+    @Autowired
+    private AsyncTask asyncTask;
+
+    @Test
+    public void testAsync() throws InterruptedException, ExecutionException {
+        asyncTask.dealNoReturnTask();
+
+        Future<String> future = asyncTask.dealHaveReturnTask(5);
+        log.info("主线程执行finished");
+        log.info(future.get());
+        assertThat(future.get(), is("success:" + 5));
+    }
+
+    @Test
+    void contextLoads() {
+    }
 
 }

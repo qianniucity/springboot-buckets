@@ -11,7 +11,7 @@
     <artifactId>springboot-async</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-async</name>
-    <description>异步线程池</description>
+    <description>异步线程池-三种方式</description>
 
     <dependencies>
         <dependency>
