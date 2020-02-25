@@ -9,6 +9,7 @@
         <module name="springboot-async" />
         <module name="springboot-batch" />
         <module name="springboot-aop" />
+        <module name="springboot-cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="springboot-async" target="1.8" />
       <module name="springboot-batch" target="1.8" />
       <module name="springboot-buckets" target="1.8" />
+      <module name="springboot-cache" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +25,7 @@
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-async" options="-parameters" />
       <module name="springboot-batch" options="-parameters" />
+      <module name="springboot-cache" options="-parameters" />
     </option>
   </component>
 </project>

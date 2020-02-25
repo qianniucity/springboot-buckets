@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-batch/springboot-batch.iml" filepath="$PROJECT_DIR$/springboot-batch/springboot-batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-buckets.iml" filepath="$PROJECT_DIR$/springboot-buckets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-cache/springboot-cache.iml" filepath="$PROJECT_DIR$/springboot-cache/springboot-cache.iml" />
     </modules>
   </component>
 </project>

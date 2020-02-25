@@ -18,6 +18,8 @@
     <modules>
         <module>springboot-aop</module>
         <module>springboot-async</module>
+        <module>springboot-batch</module>
+        <module>springboot-cache</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
