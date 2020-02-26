@@ -20,6 +20,9 @@
         <module>springboot-async</module>
         <module>springboot-batch</module>
         <module>springboot-cache</module>
+        <module>springboot-cxf</module>
+        <module>springboot-echarts</module>
+        <module>springboot-jpa</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -52,6 +55,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
         <dependency>

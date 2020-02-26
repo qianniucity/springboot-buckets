@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-batch/springboot-batch.iml" filepath="$PROJECT_DIR$/springboot-batch/springboot-batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-buckets.iml" filepath="$PROJECT_DIR$/springboot-buckets.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-cache/springboot-cache.iml" filepath="$PROJECT_DIR$/springboot-cache/springboot-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-cxf/springboot-cxf.iml" filepath="$PROJECT_DIR$/springboot-cxf/springboot-cxf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-echarts/springboot-echarts.iml" filepath="$PROJECT_DIR$/springboot-echarts/springboot-echarts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
     </modules>
   </component>
 </project>
