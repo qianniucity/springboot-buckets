@@ -8,10 +8,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.javaniuniu</groupId>
-    <artifactId>springboot-aop</artifactId>
+    <artifactId>springboot-aop-log</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-aop</name>
-    <description>SpringBoot AOP演示</description>
+    <name>springboot-aop-log</name>
+    <description>Spring Boot AOP日志演示</description>
+
 
     <dependencies>
         <dependency>

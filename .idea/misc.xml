@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/springboot-cxf/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-echarts/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-aop-log/pom.xml" />
       </list>
     </option>
   </component>

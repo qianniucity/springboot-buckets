@@ -12,11 +12,13 @@
         <module name="springboot-jpa" />
         <module name="springboot-async" />
         <module name="springboot-batch" />
+        <module name="springboot-aop-log" />
         <module name="springboot-echarts" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-aop" target="1.8" />
+      <module name="springboot-aop-log" target="1.8" />
       <module name="springboot-async" target="1.8" />
       <module name="springboot-batch" target="1.8" />
       <module name="springboot-buckets" target="1.8" />
@@ -29,6 +31,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-aop" options="-parameters" />
+      <module name="springboot-aop-log" options="-parameters" />
       <module name="springboot-async" options="-parameters" />
       <module name="springboot-batch" options="-parameters" />
       <module name="springboot-cache" options="-parameters" />

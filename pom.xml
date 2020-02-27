@@ -17,6 +17,7 @@
 
     <modules>
         <module>springboot-aop</module>
+        <module>springboot-aop-log</module>
         <module>springboot-async</module>
         <module>springboot-batch</module>
         <module>springboot-cache</module>
