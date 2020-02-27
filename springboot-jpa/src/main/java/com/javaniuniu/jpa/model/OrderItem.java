@@ -16,13 +16,13 @@ import javax.persistence.*;
 @Getter
 @Entity
 @Table(name = "t_orderitem")
-public class OrderItem extends AbstractEntity{
+public class OrderItem extends AbstractEntity {
 
 
     @ManyToOne //多个订单明细关联一个订单列表
-    @JoinColumn(name="order_id")
+    @JoinColumn(name = "order_id")
     private Order order;
 
-    @Column(columnDefinition="INT(11) NOT NULL COMMENT '订单数量'")
+    @Column(columnDefinition = "INT(11) NOT NULL COMMENT '订单数量'")
     private Integer quantity;
 }

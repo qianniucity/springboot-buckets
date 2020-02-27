@@ -24,7 +24,7 @@ public class User extends Model<User> {
     /**
      * 主键ID
      */
-    @TableId(value = "id",type = IdType.INPUT)
+    @TableId(value = "id", type = IdType.INPUT)
     private Integer id;
 
     private String username;

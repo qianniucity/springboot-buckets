@@ -11,10 +11,10 @@
     <artifactId>springboot-jpa</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-jpa</name>
-    <description>Spring Boot JPA 演示</description>
+    <description>Spring Boot JPA 演示数据校验</description>
 
     <properties>
-        <java.version>1.8</java.version>
+        <fast.json>1.2.32</fast.json>
     </properties>
 
     <dependencies>
@@ -39,16 +39,21 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.47</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fast.json}</version>
         </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-security</artifactId>-->
+        <!--        </dependency>-->
 
 
     </dependencies>
-
 
 
 </project>

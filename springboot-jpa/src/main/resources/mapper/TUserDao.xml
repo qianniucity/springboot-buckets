@@ -12,24 +12,32 @@
 
     <!--查询单个-->
     <select id="queryById" resultMap="TUserMap">
-        select
-          id, username, password, update_time, create_time
+        select id,
+               username,
+               password,
+               update_time,
+               create_time
         from test.t_user
         where id = #{id}
     </select>
 
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="TUserMap">
-        select
-          id, username, password, update_time, create_time
+        select id,
+               username,
+               password,
+               update_time,
+               create_time
         from test.t_user
-        limit #{offset}, #{limit}
+        limit #{offset}
+        ,
+        #{limit}
     </select>
 
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="TUserMap">
         select
-          id, username, password, update_time, create_time
+        id, username, password, update_time, create_time
         from test.t_user
         <where>
             <if test="id != null">
@@ -78,7 +86,9 @@
 
     <!--通过主键删除-->
     <delete id="deleteById">
-        delete from test.t_user where id = #{id}
+        delete
+        from test.t_user
+        where id = #{id}
     </delete>
 
 </mapper>

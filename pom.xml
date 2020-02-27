@@ -17,13 +17,14 @@
 
     <modules>
         <module>springboot-aop</module>
-        <module>springboot-aop-log</module>
         <module>springboot-async</module>
         <module>springboot-batch</module>
         <module>springboot-cache</module>
         <module>springboot-cxf</module>
         <module>springboot-echarts</module>
         <module>springboot-jpa</module>
+        <module>springboot-format</module>
+
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,24 +36,24 @@
     </properties>
 
     <dependencies>
-<!--        swagger-->
+        <!--        swagger-->
         <dependency>
             <groupId>com.spring4all</groupId>
             <artifactId>swagger-spring-boot-starter</artifactId>
             <version>${swagger2.boot.tarter.version}</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>net.logstash.logback</groupId>-->
-<!--            <artifactId>logstash-logback-encoder</artifactId>-->
-<!--            <version>${logback.encoder}</version>-->
-<!--        </dependency>-->
-<!--        lombok配置-->
+        <!--        <dependency>-->
+        <!--            <groupId>net.logstash.logback</groupId>-->
+        <!--            <artifactId>logstash-logback-encoder</artifactId>-->
+        <!--            <version>${logback.encoder}</version>-->
+        <!--        </dependency>-->
+        <!--        lombok配置-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-<!--        热部署-->
+        <!--        热部署-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>

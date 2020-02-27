@@ -1,4 +1,4 @@
-# Spring Boot JPA 演示
+# Spring Boot JPA 演示数据校验
 
 演示项目
 - @MappedSuperclass

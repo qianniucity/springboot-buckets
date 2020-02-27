@@ -15,7 +15,7 @@ public class TaskService {
         Thread.sleep(1000);
     }
 
-    public String task2 () throws Exception {
+    public String task2() throws Exception {
         int k = 5;
         System.out.println("------------------------在看鱼，不要打扰--------------");
         Thread.sleep(1000);

@@ -25,19 +25,21 @@ public class UserTTest extends SpringbootJpaApplicationTests {
     UserTRepository userTRepository;
 
     @Test //测试 @DynamicInsert
-    public  void saveUseT() {
+    public void saveUseT() {
         UserT userT = new UserT();
-        userT.setUsername("javaniuniu");
+        userT.setUsername("  javaniuniu  ");
         userT.setPassword("1234562");
         userT.setRealName("java牛牛");
         userT.setCreateTime(new Date());
         userT.setUpdateTime(new Date());
+        userT.setEmail("king101125s@gmail.com");
+        userT.setMobile("18620668927");
         userTRepository.save(userT);
         log.info("插入成功");
     }
 
     @Test //测试 @CreationTimestamp
-    public  void saveUseT2() {
+    public void saveUseT2() {
         UserT userT = new UserT();
         userT.setUsername("javaniuniu");
         userT.setPassword("1234562");
@@ -49,7 +51,7 @@ public class UserTTest extends SpringbootJpaApplicationTests {
     }
 
     @Test //测试 @UpdateTimestamp
-    public  void updateUseT() {
+    public void updateUseT() {
         UserT userT = new UserT();
         userT.setId(1012);
         userT.setUsername("javaniuniu");
@@ -62,10 +64,9 @@ public class UserTTest extends SpringbootJpaApplicationTests {
     }
 
 
-
     @Test// 测试@DynamicUpdate
     public void updatePassword() {
-        UserT userT =  new UserT();
+        UserT userT = new UserT();
         userT.setId(978);
         userT.setUsername("javaniuniu");
         userT.setPassword("11223344");
@@ -75,7 +76,7 @@ public class UserTTest extends SpringbootJpaApplicationTests {
 
     @Test// 测试findById
     public void updateUsername() {
-        UserT userT =  userTRepository.findById(985).get();
+        UserT userT = userTRepository.findById(985).get();
         userT.setUsername("javaniuniu");
         userTRepository.save(userT);
     }
@@ -83,7 +84,7 @@ public class UserTTest extends SpringbootJpaApplicationTests {
     @Test//测试 getOne
     @Transactional
     public void updateRealName() {
-        UserT userT =  userTRepository.getOne(984);
+        UserT userT = userTRepository.getOne(984);
         userT.setRealName("java牛牛");
         userTRepository.save(userT);
     }
@@ -94,7 +95,7 @@ public class UserTTest extends SpringbootJpaApplicationTests {
         userT.setRealName("java牛牛");
         Example<UserT> userTExample = Example.of(userT);
         List<UserT> userL = userTRepository.findAll(userTExample);
-        Assert.assertEquals(userL.size(),2);
+        Assert.assertEquals(userL.size(), 2);
         log.info(String.valueOf(userL.size()));
     }
 

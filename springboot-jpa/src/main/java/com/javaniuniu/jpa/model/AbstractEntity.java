@@ -19,14 +19,15 @@ public class AbstractEntity implements Serializable {
     private static final long serialVersionUID = 892959258661987705L;
     /**
      * 数据序号
-//     */
+     * //
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "update_time",columnDefinition="datetime")
+    @Column(name = "update_time", columnDefinition = "datetime")
     private Date updateTime;
 
-    @Column(name = "create_time",columnDefinition="datetime")
+    @Column(name = "create_time", columnDefinition = "datetime")
     private Date createTime;
 }

@@ -13,7 +13,6 @@ import java.util.concurrent.TimeUnit;
 /**
  * <p>PiceaContoller</p>
  * <p>description.</p>
- *
  */
 @RestController
 @Slf4j
@@ -25,13 +24,13 @@ public class PiceaContoller {
 
     @RequestMapping("/asyncTask")
     public void asyncTask() throws Exception {
-        log.info("在控制层调用的线程名："+ Thread.currentThread().getName());
+        log.info("在控制层调用的线程名：" + Thread.currentThread().getName());
         piceaService.asyncTask();
     }
 
     @RequestMapping("/asyncTaskFuture")
-    public String asyncTaskFuture()  {
-        log.info("在控制层调用的线程名："+ Thread.currentThread().getName());
+    public String asyncTaskFuture() {
+        log.info("在控制层调用的线程名：" + Thread.currentThread().getName());
         String ret = null;
         try {
             //异步先执行任务1
@@ -41,12 +40,12 @@ public class PiceaContoller {
             //取任务1的执行结果，设置超时时间
             String ret1 = future.get(1, TimeUnit.SECONDS);
             //去任务2的执行结果，设置超时时间
-            String ret2 = future2.get(10,TimeUnit.SECONDS);
+            String ret2 = future2.get(10, TimeUnit.SECONDS);
 
             //任务1结果+任务2结果
             ret = ret1 + "+" + ret2;
             //最终返回任何合集
-            return  ret;
+            return ret;
         } catch (InterruptedException e) {
             e.printStackTrace();
             log.info("------我是Async有返回方法的异常处理方法----InterruptedException-----");
@@ -57,6 +56,6 @@ public class PiceaContoller {
             e.printStackTrace();
             log.info("------我是Async有返回方法的异常处理方法----Exception-----");
         }
-       return null;
+        return null;
     }
 }

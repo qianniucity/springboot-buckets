@@ -9,9 +9,16 @@
     </parent>
     <groupId>com.javaniuniu</groupId>
     <artifactId>springboot-aop</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <name>springboot-aop</name>
     <description>SpringBoot AOP演示</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>springboot-aop-exception</module>
+        <module>springboot-aop-transactional</module>
+        <module>springboot-aop-log</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -22,8 +29,22 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.10</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.47</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
     </dependencies>
-
 
 
 </project>

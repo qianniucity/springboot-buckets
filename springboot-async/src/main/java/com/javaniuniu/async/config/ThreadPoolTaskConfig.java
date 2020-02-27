@@ -15,8 +15,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 @EnableAsync
 public class ThreadPoolTaskConfig {
 
-    private static final int CORE_POOL_SIZE = Runtime.getRuntime().availableProcessors() *2;
-    private static final int MAX_POOL_SIZE = CORE_POOL_SIZE *4 <256 ? 256 : CORE_POOL_SIZE * 4;
+    private static final int CORE_POOL_SIZE = Runtime.getRuntime().availableProcessors() * 2;
+    private static final int MAX_POOL_SIZE = CORE_POOL_SIZE * 4 < 256 ? 256 : CORE_POOL_SIZE * 4;
     private static final int KEEP_ALIVE_TIME = 10; //允许线程空闲时间（单位为秒）
     private static final int QUEUE_CAPACITY = 200; // 缓冲队列数
     private static final int AWAIT_TERMINATION = 60;//线程池中任务的等待时间，如果超过这个时候还没有销毁就强制销毁
@@ -28,7 +28,7 @@ public class ThreadPoolTaskConfig {
      * 如果省略则使用方法名<p>
      */
     @Bean("piceaTaskExecutor")
-    public ThreadPoolTaskExecutor piceaTaskExecutor () {
+    public ThreadPoolTaskExecutor piceaTaskExecutor() {
         ThreadPoolTaskExecutor taskExecutor = new ThreadPoolTaskExecutor();
         taskExecutor.setCorePoolSize(CORE_POOL_SIZE);
         taskExecutor.setMaxPoolSize(MAX_POOL_SIZE);

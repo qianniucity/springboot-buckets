@@ -18,7 +18,7 @@ public class UserTest extends SpringbootJpaApplicationTests {
     UserRepository userRepository;
 
     @Test //测试
-    public  void saveUseT() {
+    public void saveUseT() {
         User user = new User();
 //        user.setUsername("javaniuniu");
         user.setPassword("1234563");

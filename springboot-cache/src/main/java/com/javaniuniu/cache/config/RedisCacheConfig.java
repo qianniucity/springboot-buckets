@@ -99,7 +99,6 @@ public class RedisCacheConfig {
      * 　　* 利用java原生的摘要实现SHA256加密
      * 　　* @param bytes 加密后的报文
      * 　　* @return
-     *
      */
     public static String sha256Hex(byte[] bytes) {
         MessageDigest messageDigest;
@@ -118,7 +117,6 @@ public class RedisCacheConfig {
      * 　　* 将byte转为16进制
      * 　　* @param bytes
      * 　　* @return
-     *
      */
     private static String byte2Hex(byte[] bytes) {
         StringBuffer stringBuffer = new StringBuffer();

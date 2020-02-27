@@ -1,5 +1,8 @@
 package com.javaniuniu.jpa.model;
 
+import com.javaniuniu.jpa.validate.Email;
+import com.javaniuniu.jpa.validate.Mobile;
+import com.javaniuniu.jpa.validate.Trim;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
@@ -25,7 +28,7 @@ import java.util.Date;
 @DynamicUpdate
 @DynamicInsert
 @Table(name = "t_user")
-public class UserT  implements Serializable {
+public class UserT implements Serializable {
     private static final long serialVersionUID = 892959258661987705L;
     /**
      * 数据序号
@@ -35,23 +38,30 @@ public class UserT  implements Serializable {
     private Integer id;
 
     @UpdateTimestamp
-    @Column(name = "update_time",columnDefinition="datetime")
+    @Column(name = "update_time", columnDefinition = "datetime")
     private Date updateTime;
 
     @CreationTimestamp
-    @Column(name = "create_time",columnDefinition="datetime",updatable = false)
+    @Column(name = "create_time", columnDefinition = "datetime", updatable = false)
     private Date createTime;
 
     @NotNull
-    @Column(name = "username",nullable = false)
+    @Column(name = "username", nullable = false, unique = true)
     private String username;
 
     @NotNull
-    @Column(name = "password",nullable = false)
+    @Column(name = "password", nullable = false)
     private String password;
 
-    @Column(name="real_name")
+    @Column(name = "real_name")
     private String realName;
 
+    @Email
+    @Column(name = "email")
+    private String email;
+
+    @Mobile
+    @Column(name = "mobile")
+    private String mobile;
 
 }

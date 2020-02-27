@@ -32,7 +32,7 @@ public class PiceaServiceImpl implements PiceaService {
         int k = 1;
         Thread.sleep(2000);
         log.info("异步处理方法-----end---------asyncTaskFuture---");
-        return new AsyncResult<String> (String.valueOf(k));
+        return new AsyncResult<String>(String.valueOf(k));
     }
 
     @Async("piceaTaskExecutor")
@@ -42,9 +42,8 @@ public class PiceaServiceImpl implements PiceaService {
         log.info("异步处理方法-----start-------asyncTaskFuture-----2---");
         int k = 2;
         log.info("异步处理方法-----end---------asyncTaskFuture-----2---");
-        return new AsyncResult<String> (String.valueOf(k));
+        return new AsyncResult<String>(String.valueOf(k));
     }
-
 
 
 }

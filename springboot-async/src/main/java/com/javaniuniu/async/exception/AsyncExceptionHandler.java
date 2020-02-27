@@ -21,12 +21,12 @@ public class AsyncExceptionHandler implements AsyncUncaughtExceptionHandler {
         log.error("Async method has uncaught exception, params:{}" + Arrays.toString(objects));
         if (throwable instanceof AsyncException) {
             AsyncException asyncException = (AsyncException) throwable;
-            log.error("asyncException:"  + asyncException.getMessage());
+            log.error("asyncException:" + asyncException.getMessage());
         }
         if (throwable instanceof InterruptedException) {
             log.error("InterruptedException-------------------");
         }
-        if (throwable instanceof  NumberFormatException) {
+        if (throwable instanceof NumberFormatException) {
             log.error("NumberFormatException-------------------");
         }
         log.error("Exception :", throwable);

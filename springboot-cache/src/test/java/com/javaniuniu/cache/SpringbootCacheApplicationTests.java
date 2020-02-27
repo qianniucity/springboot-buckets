@@ -23,6 +23,7 @@ import static org.junit.Assert.assertNull;
 public class SpringbootCacheApplicationTests {
     @Autowired
     private UserService userService;
+
     @Test
     public void testCache() {
         // 创建一个用户admin

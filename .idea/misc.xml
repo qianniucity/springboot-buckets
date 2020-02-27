@@ -10,6 +10,10 @@
         <option value="$PROJECT_DIR$/springboot-echarts/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-aop-log/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-validate/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-aop-transactional/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-aop-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-format/pom.xml" />
       </list>
     </option>
   </component>

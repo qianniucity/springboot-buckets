@@ -35,13 +35,13 @@ public class UserService {
      * @param id
      * @return
      */
-    @Cacheable(value = "userCache",keyGenerator = "myKeyGenerator", key = "#id", unless="#result == null")
+    @Cacheable(value = "userCache", keyGenerator = "myKeyGenerator", key = "#id", unless = "#result == null")
     public User getById(int id) {
         log.info("获取用户start...");
         return userMapper.selectById(id);
     }
 
-    @Cacheable(value = "allUsersCache",keyGenerator = "myKeyGenerator", unless = "#result.size() == 0")
+    @Cacheable(value = "allUsersCache", keyGenerator = "myKeyGenerator", unless = "#result.size() == 0")
     public List<User> getAllUsers() {
         log.info("获取所有用户列表");
         return userMapper.selectList(null);
@@ -52,8 +52,8 @@ public class UserService {
      * 创建用户后会将allUsersCache缓存全部清空
      */
     @Caching(
-            put = {@CachePut(value = "userCache",keyGenerator = "myKeyGenerator", key = "#user.id")},
-            evict = {@CacheEvict(value = "allUsersCache",keyGenerator = "myKeyGenerator", allEntries = true)}
+            put = {@CachePut(value = "userCache", keyGenerator = "myKeyGenerator", key = "#user.id")},
+            evict = {@CacheEvict(value = "allUsersCache", keyGenerator = "myKeyGenerator", allEntries = true)}
     )
     public User createUser(User user) {
         log.info("创建用户start..., user.id=" + user.getId());
@@ -66,22 +66,23 @@ public class UserService {
      * 更新用户后会将allUsersCache缓存全部清空
      */
     @Caching(
-            put = {@CachePut(value = "userCache",keyGenerator = "myKeyGenerator", key = "#user.id")},
-            evict = {@CacheEvict(value = "allUsersCache",keyGenerator = "myKeyGenerator", allEntries = true)}
+            put = {@CachePut(value = "userCache", keyGenerator = "myKeyGenerator", key = "#user.id")},
+            evict = {@CacheEvict(value = "allUsersCache", keyGenerator = "myKeyGenerator", allEntries = true)}
     )
     public User updateUser(User user) {
         log.info("更新用户start...");
         userMapper.updateById(user);
         return user;
     }
+
     /**
      * 对符合key条件的记录从缓存中移除
      * 删除用户后会将allUsersCache缓存全部清空
      */
     @Caching(
             evict = {
-                    @CacheEvict(value = "userCache",keyGenerator = "myKeyGenerator", key = "#id"),
-                    @CacheEvict(value = "allUsersCache",keyGenerator = "myKeyGenerator", allEntries = true)
+                    @CacheEvict(value = "userCache", keyGenerator = "myKeyGenerator", key = "#id"),
+                    @CacheEvict(value = "allUsersCache", keyGenerator = "myKeyGenerator", allEntries = true)
             }
     )
     public void deleteById(int id) {
