@@ -1,7 +1,7 @@
 package com.javaniuniu.exception.handler;
 
-import com.javaniuniu.exception.VO.ResultVo;
-import com.javaniuniu.exception.util.ErrorCodeEnum;
+import com.javaniuniu.exception.commons.MsgResponseBody;
+import com.javaniuniu.exception.commons.ErrorCodeEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -18,26 +18,23 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Slf4j
 @ControllerAdvice
 public class GlobalExceptionHandler {
+
     @ResponseBody
     @ExceptionHandler(value = Exception.class)
-    public ResultVo<Object> handleException(Exception e) {
-        String errorMsg = "";
-        String errorCode = "";
-        if (e instanceof NullPointerException) {
-            errorCode = ErrorCodeEnum.FAIL_RUNTIME_EXPS.getCode();
-            errorMsg = ErrorCodeEnum.FAIL_RUNTIME_EXPS.getMessage();
-        } else if (e instanceof HttpMessageNotReadableException) {
-            errorCode = ErrorCodeEnum.FAIL_PARAMS_EXP.getCode();
-            errorMsg = ErrorCodeEnum.FAIL_PARAMS_EXP.getMessage() + e.getLocalizedMessage();
-        } else {
-            errorCode = "501";
-            errorMsg = "未知错误"+ e.getMessage();
-        }
-        log.error(String.format("请求异常[%s]", e));
+    public MsgResponseBody<Object> handleException(Exception e) {
 
-        ResultVo<Object> resultVo = new ResultVo<>();
-        resultVo.setResultCode(errorCode);
-        resultVo.setResultMsg(errorMsg);
-        return resultVo;
+        if (e instanceof NullPointerException) {
+            return MsgResponseBody.error(ErrorCodeEnum.FAIL_NULLPOINT_EXP.getCode()).setResult(ErrorCodeEnum.FAIL_NULLPOINT_EXP.getMessage());
+
+        } else if (e instanceof HttpMessageNotReadableException) {
+            MsgResponseBody.error(ErrorCodeEnum.FAIL_PARAMS_EXP.getCode()).setResult(ErrorCodeEnum.FAIL_PARAMS_EXP.getMessage());
+
+        } else {
+            return MsgResponseBody.error("100000").setResult("其他错误"+e);
+
+        }
+        return null;
     }
+
+
 }

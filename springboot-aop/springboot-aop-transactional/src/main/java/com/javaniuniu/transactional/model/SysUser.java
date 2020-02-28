@@ -1,81 +1,161 @@
 package com.javaniuniu.transactional.model;
 
-import com.javaniuniu.transactional.validate.Email;
-import com.javaniuniu.transactional.validate.Mobile;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.UpdateTimestamp;
-
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import java.io.Serializable;
 import java.util.Date;
 
 /**
  * @Author: java牛牛
  * @Web: http://javaniuniu.com
  * @GitHub https://github.com/minplemon
- * @Date: 2020/2/27 3:52 PM
- * 系统用户
+ * @Date: 2020/2/28 7:52 PM
  */
-@Getter
-@Setter
-@NoArgsConstructor
-@Entity
-@Table(name = "sys_user")
-public class SysUser implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class SysUser {
     private Long id;
 
-    @Column(name = "name", unique = true)
     private String name;
 
-    @Column(name = "nick_name")
     private String nickName;
 
-    @Column(name = "avatar")
     private String avatar;
 
-    @NotNull
-    @Column(name = "password")
     private String password;
 
-    @Column(name = "salt")
     private String salt;
 
-    @Email
-    @Column(name = "email")
     private String email;
 
-    @Mobile
-    @Column(name = "mobile")
     private String mobile;
 
-    @Column(name = "status")
     private Byte status;
 
-    //    @ManyToOne
-//    @JoinColumn(name = "dept_id")
-    @Column(name = "dept_id")
     private Long deptId;
 
-    @Column(name = "create_by")
     private String createBy;
 
-    @CreationTimestamp
-    @Column(name = "create_time", columnDefinition = "datetime")
     private Date createTime;
 
-    @Column(name = "last_update_by")
     private String lastUpdateBy;
 
-    @UpdateTimestamp
-    @Column(name = "last_update_time", columnDefinition = "datetime")
     private Date lastUpdateTime;
 
-    @Column(name = "del_flag")
     private Byte delFlag;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name == null ? null : name.trim();
+    }
+
+    public String getNickName() {
+        return nickName;
+    }
+
+    public void setNickName(String nickName) {
+        this.nickName = nickName == null ? null : nickName.trim();
+    }
+
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar == null ? null : avatar.trim();
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password == null ? null : password.trim();
+    }
+
+    public String getSalt() {
+        return salt;
+    }
+
+    public void setSalt(String salt) {
+        this.salt = salt == null ? null : salt.trim();
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email == null ? null : email.trim();
+    }
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile == null ? null : mobile.trim();
+    }
+
+    public Byte getStatus() {
+        return status;
+    }
+
+    public void setStatus(Byte status) {
+        this.status = status;
+    }
+
+    public Long getDeptId() {
+        return deptId;
+    }
+
+    public void setDeptId(Long deptId) {
+        this.deptId = deptId;
+    }
+
+    public String getCreateBy() {
+        return createBy;
+    }
+
+    public void setCreateBy(String createBy) {
+        this.createBy = createBy == null ? null : createBy.trim();
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    public String getLastUpdateBy() {
+        return lastUpdateBy;
+    }
+
+    public void setLastUpdateBy(String lastUpdateBy) {
+        this.lastUpdateBy = lastUpdateBy == null ? null : lastUpdateBy.trim();
+    }
+
+    public Date getLastUpdateTime() {
+        return lastUpdateTime;
+    }
+
+    public void setLastUpdateTime(Date lastUpdateTime) {
+        this.lastUpdateTime = lastUpdateTime;
+    }
+
+    public Byte getDelFlag() {
+        return delFlag;
+    }
+
+    public void setDelFlag(Byte delFlag) {
+        this.delFlag = delFlag;
+    }
 }

@@ -1,4 +1,4 @@
-package com.javaniuniu.exception;
+package com.javaniuniu.exception.commons;
 
 import java.io.Serializable;
 

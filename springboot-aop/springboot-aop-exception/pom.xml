@@ -13,14 +13,8 @@
     <name>springboot-aop-exception</name>
     <description>SpringBoot AOP演示项目-异常扑获</description>
 
-
-
     <dependencies>
-
-
-
     </dependencies>
-
 
 
 </project>

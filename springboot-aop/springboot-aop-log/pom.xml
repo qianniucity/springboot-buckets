@@ -13,7 +13,6 @@
     <name>springboot-aop-log</name>
     <description>Spring Boot AOP日志演示</description>
 
-
     <dependencies>
 
     </dependencies>

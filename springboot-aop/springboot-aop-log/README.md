@@ -1,5 +1,6 @@
 ## SpringBoot AOP演示项目-日志篇
 
+1.包含wagger配置
 
 参考文档：
 - [Lombok 实战](http://javaniuniu.com/Annotation/Lombok)
