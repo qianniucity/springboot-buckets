@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/springboot-aop-exception/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-format/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-aop/springboot-aop-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-filter/pom.xml" />
       </list>
     </option>
   </component>

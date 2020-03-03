@@ -56,8 +56,8 @@ public class UserTTest extends SpringbootJpaApplicationTests {
         userT.setId(1012);
         userT.setUsername("javaniuniu");
         userT.setPassword("1234562");
-        userT.setRealName("java牛牛2");
-        userT.setCreateTime(new Date());
+        userT.setRealName("牛牛牛牛牛牛牛牛");
+//        userT.setCreateTime(new Date());
 //        userT.setUpdateTime(new Date());
         userTRepository.save(userT);
         log.info("插入成功");

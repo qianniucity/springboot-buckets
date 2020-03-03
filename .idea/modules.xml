@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-cache/springboot-cache.iml" filepath="$PROJECT_DIR$/springboot-cache/springboot-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-cxf/springboot-cxf.iml" filepath="$PROJECT_DIR$/springboot-cxf/springboot-cxf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-echarts/springboot-echarts.iml" filepath="$PROJECT_DIR$/springboot-echarts/springboot-echarts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-filter/springboot-filter.iml" filepath="$PROJECT_DIR$/springboot-filter/springboot-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-format/springboot-format.iml" filepath="$PROJECT_DIR$/springboot-format/springboot-format.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
     </modules>
