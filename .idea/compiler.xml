@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -25,7 +26,6 @@
       <module name="springboot-aop-format" target="1.8" />
       <module name="springboot-aop-log" target="1.8" />
       <module name="springboot-aop-transactional" target="1.8" />
-      <module name="springboot-aop-validate" target="1.8" />
       <module name="springboot-async" target="1.8" />
       <module name="springboot-batch" target="1.8" />
       <module name="springboot-buckets" target="1.8" />
@@ -43,7 +43,6 @@
       <module name="springboot-aop-format" options="-parameters" />
       <module name="springboot-aop-log" options="-parameters" />
       <module name="springboot-aop-transactional" options="-parameters" />
-      <module name="springboot-aop-validate" options="-parameters" />
       <module name="springboot-async" options="-parameters" />
       <module name="springboot-batch" options="-parameters" />
       <module name="springboot-cache" options="-parameters" />

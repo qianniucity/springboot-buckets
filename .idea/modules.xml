@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop-exception/springboot-aop-exception.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop-exception/springboot-aop-exception.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop-format/springboot-format.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop-format/springboot-format.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop-format/springboot-aop-format.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop-format/springboot-aop-format.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop-log/springboot-aop-log.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop-log/springboot-aop-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop-transactional/springboot-aop-transactional.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop-transactional/springboot-aop-transactional.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />

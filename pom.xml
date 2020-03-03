@@ -23,7 +23,6 @@
         <module>springboot-cxf</module>
         <module>springboot-echarts</module>
         <module>springboot-jpa</module>
-        <module>springboot-format</module>
         <module>springboot-filter</module>
 
     </modules>

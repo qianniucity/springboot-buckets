@@ -25,7 +25,7 @@ public class CheckParamsController {
     @RequestMapping(value = "/userNotNull", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     public String checkUserNOtNull(@RequestBody User user) {
 
-        return user.getId()+"&"+user.getName();
+        return user.getId() + "&" + user.getName();
     }
 
 }

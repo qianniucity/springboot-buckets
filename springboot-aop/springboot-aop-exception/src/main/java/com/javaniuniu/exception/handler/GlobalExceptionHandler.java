@@ -30,7 +30,7 @@ public class GlobalExceptionHandler {
             MsgResponseBody.error(ErrorCodeEnum.FAIL_PARAMS_EXP.getCode()).setResult(ErrorCodeEnum.FAIL_PARAMS_EXP.getMessage());
 
         } else {
-            return MsgResponseBody.error("100000").setResult("其他错误"+e);
+            return MsgResponseBody.error("100000").setResult("其他错误" + e);
 
         }
         return null;
