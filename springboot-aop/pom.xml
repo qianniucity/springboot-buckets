@@ -15,10 +15,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>springboot-aop-exception</module>
-        <module>springboot-aop-transactional</module>
-        <module>springboot-aop-log</module>
-        <module>springboot-aop-format</module>
+        <module>../springboot-aop-exception</module>
+        <module>../springboot-aop-transactional</module>
+        <module>../springboot-aop-log</module>
+        <module>../springboot-aop-format</module>
     </modules>
 
     <dependencies>
