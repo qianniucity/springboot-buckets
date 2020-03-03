@@ -32,9 +32,9 @@ public class SysUserDao {
                 "value(?,?,?,?,?,?,?,?,?,?,?,?,?,?);";
         jdbcTemplate.update(sql,
                 user.getName(), user.getNickName(), user.getAvatar(),
-                user.getPassword(),user.getSalt(),user.getEmail(),user.getMobile(),
-                user.getStatus(),user.getDeptId(),user.getCreateBy(),user.getCreateTime(),
-                user.getLastUpdateBy(),user.getLastUpdateTime(),user.getDelFlag());
+                user.getPassword(), user.getSalt(), user.getEmail(), user.getMobile(),
+                user.getStatus(), user.getDeptId(), user.getCreateBy(), user.getCreateTime(),
+                user.getLastUpdateBy(), user.getLastUpdateTime(), user.getDelFlag());
         if (log.isDebugEnabled()) {
             log.debug("JDBC SQL->" + sql);
         }

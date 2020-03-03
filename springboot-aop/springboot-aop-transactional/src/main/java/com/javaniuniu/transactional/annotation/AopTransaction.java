@@ -15,6 +15,8 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface AopTransaction {
     String name() default "事务名称";
+
     String functionName() default "方法名称";
+
     String className() default "类名称";
 }

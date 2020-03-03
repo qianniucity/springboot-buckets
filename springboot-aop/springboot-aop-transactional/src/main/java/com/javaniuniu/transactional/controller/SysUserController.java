@@ -22,19 +22,19 @@ public class SysUserController {
     @Autowired
     private SysUserService sysUserService;
 
-    @PostMapping(value="/save")
+    @PostMapping(value = "/save")
     public Object save(@RequestBody SysUser user) {
         sysUserService.save(user);
         return 1;
     }
 
-    @GetMapping(value="/delete")
+    @GetMapping(value = "/delete")
     public Object delete(@RequestParam("id") String id) {
         sysUserService.delete(id);
         return 1;
     }
 
-    @GetMapping(value="/findAll")
+    @GetMapping(value = "/findAll")
     public Object findAll() {
         return sysUserService.findAll();
     }

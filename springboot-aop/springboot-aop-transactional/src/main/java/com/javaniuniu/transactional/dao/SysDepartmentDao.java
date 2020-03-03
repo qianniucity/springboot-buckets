@@ -31,8 +31,8 @@ public class SysDepartmentDao {
         String sql = "insert into sys_department(`name`,nick_name,create_by,create_time,last_update_by,last_update_time,del_flag)" +
                 "value(?,?,?,?,?,?,?);";
         jdbcTemplate.update(sql,
-                department.getName(), department.getNickName(),department.getCreateBy(),department.getCreateTime(),
-                department.getLastUpdateBy(),department.getLastUpdateTime(),department.getDelFlag());
+                department.getName(), department.getNickName(), department.getCreateBy(), department.getCreateTime(),
+                department.getLastUpdateBy(), department.getLastUpdateTime(), department.getDelFlag());
         if (log.isDebugEnabled()) {
             log.debug("JDBC SQL->" + sql);
         }

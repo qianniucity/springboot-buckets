@@ -11,5 +11,5 @@ import org.springframework.stereotype.Repository;
  * @Date: 2020/2/28 12:24 PM
  */
 @Repository
-public interface SysUserRepository extends JpaRepository<SysUser_jpa,Long> {
+public interface SysUserRepository extends JpaRepository<SysUser_jpa, Long> {
 }

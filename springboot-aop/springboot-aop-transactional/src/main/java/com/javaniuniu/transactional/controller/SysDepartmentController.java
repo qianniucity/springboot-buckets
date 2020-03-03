@@ -19,19 +19,19 @@ public class SysDepartmentController {
     @Autowired
     private SysDepartmentService departmentService;
 
-    @PostMapping(value="/save")
+    @PostMapping(value = "/save")
     public Object save(@RequestBody SysDepartment department) {
         departmentService.save(department);
         return 1;
     }
 
-    @GetMapping(value="/delete")
+    @GetMapping(value = "/delete")
     public Object delete(@RequestParam("id") String id) {
         departmentService.delete(id);
         return 1;
     }
 
-    @GetMapping(value="/findAll")
+    @GetMapping(value = "/findAll")
     public Object findAll() {
         return departmentService.findAll();
     }

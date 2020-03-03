@@ -50,12 +50,12 @@ public class TransactionUtil {
     // 提交事务
     public void commit(TransactionStatus transaction) {
         log.info("-------------提交事务--------------");
-        if(dataSourceTransactionManager != null) dataSourceTransactionManager.commit(transaction);
+        if (dataSourceTransactionManager != null) dataSourceTransactionManager.commit(transaction);
     }
 
     // 回滚事务
     public void rollback(TransactionStatus transaction) {
         log.info("............回滚事务.............");
-        if(dataSourceTransactionManager != null) dataSourceTransactionManager.rollback(transaction);
+        if (dataSourceTransactionManager != null) dataSourceTransactionManager.rollback(transaction);
     }
 }
