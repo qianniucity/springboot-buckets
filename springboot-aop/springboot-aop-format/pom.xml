@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.javaniuniu</groupId>
+        <artifactId>springboot-buckets</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <groupId>com.javaniuniu</groupId>
+    <artifactId>springboot-format</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>springboot-format数据格式化</name>
+    <description>Spring Boot</description>
+    <properties>
+        <fast.json>1.2.32</fast.json>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fast.json}</version>
+        </dependency>
+
+
+    </dependencies>
+
+
+</project>

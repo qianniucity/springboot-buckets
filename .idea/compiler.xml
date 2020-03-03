@@ -9,7 +9,7 @@
         <module name="springboot-cache" />
         <module name="springboot-cxf" />
         <module name="springboot-aop-transactional" />
-        <module name="springboot-format" />
+        <module name="springboot-aop-format" />
         <module name="springboot-jpa" />
         <module name="springboot-filter" />
         <module name="springboot-aop-log" />
@@ -22,6 +22,7 @@
     <bytecodeTargetLevel>
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-aop-exception" target="1.8" />
+      <module name="springboot-aop-format" target="1.8" />
       <module name="springboot-aop-log" target="1.8" />
       <module name="springboot-aop-transactional" target="1.8" />
       <module name="springboot-aop-validate" target="1.8" />
@@ -32,7 +33,6 @@
       <module name="springboot-cxf" target="1.8" />
       <module name="springboot-echarts" target="1.8" />
       <module name="springboot-filter" target="1.8" />
-      <module name="springboot-format" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -40,6 +40,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-aop" options="" />
       <module name="springboot-aop-exception" options="-parameters" />
+      <module name="springboot-aop-format" options="-parameters" />
       <module name="springboot-aop-log" options="-parameters" />
       <module name="springboot-aop-transactional" options="-parameters" />
       <module name="springboot-aop-validate" options="-parameters" />
@@ -49,7 +50,6 @@
       <module name="springboot-cxf" options="-parameters" />
       <module name="springboot-echarts" options="-parameters" />
       <module name="springboot-filter" options="-parameters" />
-      <module name="springboot-format" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />
     </option>
   </component>

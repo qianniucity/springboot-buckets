@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop-exception/springboot-aop-exception.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop-exception/springboot-aop-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop-format/springboot-format.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop-format/springboot-format.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop-log/springboot-aop-log.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop-log/springboot-aop-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop-transactional/springboot-aop-transactional.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop-transactional/springboot-aop-transactional.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />
@@ -13,7 +14,6 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-cxf/springboot-cxf.iml" filepath="$PROJECT_DIR$/springboot-cxf/springboot-cxf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-echarts/springboot-echarts.iml" filepath="$PROJECT_DIR$/springboot-echarts/springboot-echarts.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-filter/springboot-filter.iml" filepath="$PROJECT_DIR$/springboot-filter/springboot-filter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-format/springboot-format.iml" filepath="$PROJECT_DIR$/springboot-format/springboot-format.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
     </modules>
   </component>
