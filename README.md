@@ -17,6 +17,7 @@
 |springboot-jpa|[Spring Boot JPA 演示](./springboot-jpa)|
 |springboot-restful|[Spring boot实现RESTful API接口](./springboot-restful)|
 |springboot-hibernate|[Spring Boot集成Hibernate做DAO层](./springboot-hibernate)|
+|springboot-mongodb|[SpringBoot集成MongoDB访问NoSQL数据库](./springboot-mongodb)|
 
 
 参考网站
