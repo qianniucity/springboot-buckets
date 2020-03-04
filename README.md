@@ -15,6 +15,7 @@
 |springboot-format|[springboot-format数据格式化](./springboot-format)|
 |springboot-jpa|[Spring Boot JPA 演示](./springboot-jpa)|
 |springboot-filter|[Spring Boot演示过滤器去除请求参数首尾空格](./springboot-filter)|
+|springboot-restful|[Spring boot实现RESTful API接口](./springboot-restful)|
 
 参考网站
 - [springboot-bucket](https://gitee.com/yidao620/springboot-bucket/tree/master)

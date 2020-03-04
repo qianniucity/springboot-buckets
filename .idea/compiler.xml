@@ -13,6 +13,7 @@
         <module name="springboot-aop-format" />
         <module name="springboot-jpa" />
         <module name="springboot-filter" />
+        <module name="springboot-restful" />
         <module name="springboot-aop-log" />
         <module name="springboot-batch" />
         <module name="springboot-echarts" />
@@ -34,6 +35,7 @@
       <module name="springboot-echarts" target="1.8" />
       <module name="springboot-filter" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
+      <module name="springboot-restful" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -50,6 +52,7 @@
       <module name="springboot-echarts" options="-parameters" />
       <module name="springboot-filter" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-restful" options="-parameters" />
     </option>
   </component>
 </project>

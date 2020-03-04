@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-echarts/springboot-echarts.iml" filepath="$PROJECT_DIR$/springboot-echarts/springboot-echarts.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-filter/springboot-filter.iml" filepath="$PROJECT_DIR$/springboot-filter/springboot-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-restful/springboot-restful.iml" filepath="$PROJECT_DIR$/springboot-restful/springboot-restful.iml" />
     </modules>
   </component>
 </project>
