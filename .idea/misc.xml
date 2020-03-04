@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/springboot-aop/springboot-aop-format/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-restful/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
       </list>
     </option>
   </component>

@@ -26,6 +26,7 @@
         <module>springboot-filter</module>
         <module>springboot-restful</module>
         <module>springboot-hibernate</module>
+        <module>springboot-mongodb</module>
 
     </modules>
     <properties>

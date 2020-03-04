@@ -8,18 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-cache" />
-        <module name="springboot-cxf" />
-        <module name="springboot-aop-transactional" />
-        <module name="springboot-aop-format" />
         <module name="springboot-jpa" />
-        <module name="springboot-filter" />
-        <module name="springboot-restful" />
-        <module name="springboot-hibernate" />
         <module name="springboot-aop-log" />
-        <module name="springboot-batch" />
+        <module name="springboot-restful" />
+        <module name="springboot-filter" />
         <module name="springboot-echarts" />
+        <module name="springboot-aop-transactional" />
+        <module name="springboot-mongodb" />
+        <module name="springboot-batch" />
+        <module name="springboot-cxf" />
         <module name="springboot-async" />
+        <module name="springboot-hibernate" />
         <module name="springboot-aop-exception" />
+        <module name="springboot-aop-format" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +38,7 @@
       <module name="springboot-filter" target="1.8" />
       <module name="springboot-hibernate" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
+      <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-restful" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -55,6 +57,7 @@
       <module name="springboot-filter" options="-parameters" />
       <module name="springboot-hibernate" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-mongodb" options="-parameters" />
       <module name="springboot-restful" options="-parameters" />
     </option>
   </component>
