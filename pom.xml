@@ -25,6 +25,7 @@
         <module>springboot-jpa</module>
         <module>springboot-filter</module>
         <module>springboot-restful</module>
+        <module>springboot-hibernate</module>
 
     </modules>
     <properties>

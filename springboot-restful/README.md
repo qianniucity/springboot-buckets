@@ -28,3 +28,4 @@
 
 参考链接
 - [Could not write JSON: Infinite recursion (StackOverflowError)](https://blog.csdn.net/east123321/article/details/80435051)
+- [static{}静态代码块与{}普通代码块之间的区别](https://www.cnblogs.com/lukelook/p/11183155.html)
