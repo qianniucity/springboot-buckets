@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/springboot-restful/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-hibernate/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-common/pom.xml" />
       </list>
     </option>
   </component>

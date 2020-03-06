@@ -27,6 +27,7 @@
         <module>springboot-restful</module>
         <module>springboot-hibernate</module>
         <module>springboot-mongodb</module>
+        <module>springboot-common</module>
 
     </modules>
     <properties>
