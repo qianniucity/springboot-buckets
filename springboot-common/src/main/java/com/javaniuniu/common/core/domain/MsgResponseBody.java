@@ -1,4 +1,4 @@
-package com.javaniuniu.common.code.domain;
+package com.javaniuniu.common.core.domain;
 
 import java.io.Serializable;
 

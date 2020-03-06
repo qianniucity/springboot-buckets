@@ -28,7 +28,6 @@
         <module>springboot-hibernate</module>
         <module>springboot-mongodb</module>
         <module>springboot-common</module>
-
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,6 +35,7 @@
         <java.version>1.8</java.version>
         <swagger2.boot.tarter.version>1.7.0.RELEASE</swagger2.boot.tarter.version>
         <logback.encoder>4.8</logback.encoder>
+        <fastjson.version>1.2.60</fastjson.version>
 
     </properties>
 
