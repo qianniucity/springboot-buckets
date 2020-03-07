@@ -18,6 +18,10 @@
 
 ### [sql文件](./sql/ry_20191122.sql)
 
+### BaseEntity中 params 大有用处
+1. 对实体类中的参数做限制 及条件查询
+2. 对mapper.xml条件查询的补充，如 在外部参数+mapper.xml的sql 做条件查询
+private Map<String, Object> params;
 
 
 

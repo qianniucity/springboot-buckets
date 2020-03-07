@@ -1,5 +1,7 @@
 package com.javaniuniu.common.utils;
 
+import com.javaniuniu.common.core.text.StrFormatter;
+
 import java.util.Collection;
 import java.util.Map;
 
@@ -246,14 +248,14 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
      * @param params 参数值
      * @return 格式化后的文本
      */
-//    public static String format(String template, Object... params)
-//    {
-//        if (isEmpty(params) || isEmpty(template))
-//        {
-//            return template;
-//        }
-//        return StrFormatter.format(template, params);
-//    }
+    public static String format(String template, Object... params)
+    {
+        if (isEmpty(params) || isEmpty(template))
+        {
+            return template;
+        }
+        return StrFormatter.format(template, params);
+    }
 
     /**
      * 下划线转驼峰命名
