@@ -19,6 +19,7 @@
 |springboot-hibernate|[Spring Boot集成Hibernate做DAO层](./springboot-hibernate)|
 |springboot-mongodb|[SpringBoot集成MongoDB访问NoSQL数据库](./springboot-mongodb)|
 |springboot-common|[Spring Boot 通用工具类](./springboot-common)|
+|springboot-interceptor|[防止重复提交拦截器](./springboot-interceptor)|
 
 
 参考网站
