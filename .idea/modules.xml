@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-exception/springboot-aop-exception.iml" filepath="$PROJECT_DIR$/springboot-aop-exception/springboot-aop-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-format/springboot-aop-format.iml" filepath="$PROJECT_DIR$/springboot-aop-format/springboot-aop-format.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop-limit/springboot-aop-limit.iml" filepath="$PROJECT_DIR$/springboot-aop-limit/springboot-aop-limit.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" filepath="$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-transactional/springboot-aop-transactional.iml" filepath="$PROJECT_DIR$/springboot-aop-transactional/springboot-aop-transactional.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-restful/springboot-restful.iml" filepath="$PROJECT_DIR$/springboot-restful/springboot-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-thread-async/springboot-thread-async.iml" filepath="$PROJECT_DIR$/springboot-thread-async/springboot-thread-async.iml" />
     </modules>
   </component>
 </project>

@@ -20,6 +20,7 @@
 |springboot-mongodb|[SpringBoot集成MongoDB访问NoSQL数据库](./springboot-mongodb)|
 |springboot-common|[Spring Boot 通用工具类](./springboot-common)|
 |springboot-interceptor|[防止重复提交拦截器](./springboot-interceptor)|
+|springboot-thread-async|[异步任务管理器](./springboot-thread-async)|
 
 
 参考网站

@@ -29,6 +29,7 @@
         <module>springboot-mongodb</module>
         <module>springboot-common</module>
         <module>springboot-interceptor</module>
+        <module>springboot-thread-async</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
