@@ -20,6 +20,7 @@
         <module>../springboot-aop-log</module>
         <module>../springboot-aop-format</module>
         <module>../springboot-aop-limit</module>
+        <module>../springboot-aop-validate</module>
     </modules>
 
     <dependencies>

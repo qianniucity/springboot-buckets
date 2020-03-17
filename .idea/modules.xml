@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-limit/springboot-aop-limit.iml" filepath="$PROJECT_DIR$/springboot-aop-limit/springboot-aop-limit.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" filepath="$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-transactional/springboot-aop-transactional.iml" filepath="$PROJECT_DIR$/springboot-aop-transactional/springboot-aop-transactional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop-validate/springboot-aop-validate.iml" filepath="$PROJECT_DIR$/springboot-aop-validate/springboot-aop-validate.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-batch/springboot-batch.iml" filepath="$PROJECT_DIR$/springboot-batch/springboot-batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-buckets.iml" filepath="$PROJECT_DIR$/springboot-buckets.iml" />

@@ -7,22 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-cache" />
+        <module name="springboot-cxf" />
         <module name="springboot-aop-log" />
         <module name="springboot-restful" />
         <module name="springboot-filter" />
+        <module name="springboot-interceptor" />
         <module name="springboot-echarts" />
         <module name="springboot-aop-transactional" />
         <module name="springboot-batch" />
-        <module name="springboot-cxf" />
         <module name="springboot-mongodb" />
         <module name="springboot-aop-limit" />
-        <module name="springboot-interceptor" />
-        <module name="springboot-jpa" />
-        <module name="springboot-async" />
-        <module name="springboot-hibernate" />
-        <module name="springboot-common" />
         <module name="springboot-aop-exception" />
+        <module name="springboot-hibernate" />
+        <module name="springboot-jpa" />
+        <module name="springboot-aop-validate" />
+        <module name="springboot-async" />
+        <module name="springboot-cache" />
+        <module name="springboot-common" />
         <module name="springboot-thread-async" />
         <module name="springboot-aop-format" />
       </profile>
@@ -34,6 +35,7 @@
       <module name="springboot-aop-limit" target="1.8" />
       <module name="springboot-aop-log" target="1.8" />
       <module name="springboot-aop-transactional" target="1.8" />
+      <module name="springboot-aop-validate" target="1.8" />
       <module name="springboot-async" target="1.8" />
       <module name="springboot-batch" target="1.8" />
       <module name="springboot-buckets" target="1.8" />
@@ -60,6 +62,7 @@
       <module name="springboot-aop-limit" options="-parameters" />
       <module name="springboot-aop-log" options="-parameters" />
       <module name="springboot-aop-transactional" options="-parameters" />
+      <module name="springboot-aop-validate" options="-parameters" />
       <module name="springboot-async" options="-parameters" />
       <module name="springboot-batch" options="-parameters" />
       <module name="springboot-cache" options="-parameters" />
