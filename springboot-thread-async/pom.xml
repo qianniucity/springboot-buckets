@@ -10,7 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>springboot-thread-async</artifactId>
-    <name>springboot 异步任务管理器</name>
+    <name>springboot-thread-async</name>
+    <description>springboot 异步任务管理器</description>
 
     <dependencies>
         <dependency>

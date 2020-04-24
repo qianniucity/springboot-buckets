@@ -10,7 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>springboot-captcha</artifactId>
-    <name>springboot-图形验证码</name>
+    <name>springboot-captcha</name>
+    <description>springboot-图形验证码</description>
 
 
     <dependencies>

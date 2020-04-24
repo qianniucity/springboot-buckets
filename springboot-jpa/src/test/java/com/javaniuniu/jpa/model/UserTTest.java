@@ -7,6 +7,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
@@ -95,6 +98,8 @@ public class UserTTest extends SpringbootJpaApplicationTests {
         userT.setRealName("java牛牛");
         Example<UserT> userTExample = Example.of(userT);
         List<UserT> userL = userTRepository.findAll(userTExample);
+        Pageable pageable = PageRequest.of(1, 10);
+        Page<UserT> s= userTRepository.findAll(userTExample, pageable);
         Assert.assertEquals(userL.size(), 2);
         log.info(String.valueOf(userL.size()));
     }

@@ -10,7 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>springboot-aop-validate</artifactId>
-    <name>springboot-aop 通过注解校验参数</name>
+    <name>springboot-aop-validate</name>
+    <description>springboot-aop 通过注解校验参数</description>
 
 
 </project>
