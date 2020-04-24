@@ -30,6 +30,8 @@
         <module>springboot-common</module>
         <module>springboot-interceptor</module>
         <module>springboot-thread-async</module>
+        <module>springboot-mybatis-generator</module>
+        <module>springboot-mybatis-generator2</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

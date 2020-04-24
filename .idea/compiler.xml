@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-cxf" />
+        <module name="springboot-cache" />
         <module name="springboot-jpa" />
         <module name="springboot-captcha" />
         <module name="springboot-restful" />
@@ -15,19 +15,20 @@
         <module name="springboot-aop-log" />
         <module name="springboot-echarts" />
         <module name="springboot-aop-transactional" />
-        <module name="springboot-batch" />
-        <module name="springboot-mybatis-generator" />
-        <module name="springboot-common" />
-        <module name="springboot-cache" />
+        <module name="springboot-thread-async" />
+        <module name="springboot-mybatis-generator2" />
         <module name="springboot-mongodb" />
         <module name="springboot-aop-limit" />
-        <module name="springboot-interceptor" />
+        <module name="springboot-aop-exception" />
+        <module name="springboot-batch" />
+        <module name="springboot-cxf" />
+        <module name="springboot-mybatis-generator" />
         <module name="springboot-aop-validate" />
         <module name="springboot-async" />
-        <module name="springboot-hibernate" />
-        <module name="springboot-aop-exception" />
-        <module name="springboot-thread-async" />
+        <module name="springboot-interceptor" />
+        <module name="springboot-common" />
         <module name="springboot-aop-format" />
+        <module name="springboot-hibernate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -52,6 +53,7 @@
       <module name="springboot-jpa" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-mybatis-generator" target="1.8" />
+      <module name="springboot-mybatis-generator2" target="1.8" />
       <module name="springboot-repeatsubmit" target="1.8" />
       <module name="springboot-restful" target="1.8" />
       <module name="springboot-result" target="1.8" />
@@ -80,6 +82,7 @@
       <module name="springboot-jpa" options="-parameters" />
       <module name="springboot-mongodb" options="-parameters" />
       <module name="springboot-mybatis-generator" options="-parameters" />
+      <module name="springboot-mybatis-generator2" options="-parameters" />
       <module name="springboot-repeatsubmit" options="-parameters" />
       <module name="springboot-restful" options="-parameters" />
       <module name="springboot-result" options="-parameters" />

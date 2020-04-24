@@ -24,7 +24,8 @@
 |springboot-interceptor|[防止重复提交拦截器](./springboot-interceptor)|
 |springboot-thread-async|[异步任务管理器](./springboot-thread-async)|
 |springboot-captcha|[图形验证码](./springboot-captcha)|
-
+|mybatis-generator|[自动生成mapper1](./springboot-mybatis-generator)|
+|mybatis-generator2|[自动生成mapper2](./springboot-mybatis-generator2)|
 
 
 
