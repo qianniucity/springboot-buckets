@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  zookeeper:
+    image: zookeeper:3.5.6
+    restart: always
+    container_name: zk
+    ports:
+      - 2184:2181
+  admin:
+    image: apache/dubbo-admin
+    container_name: dubbo-admin-zk
+    depends_on:
+      - zookeeper
+    ports:
+      - 32771:8080
+    environment:
+      - admin.registry.address=zookeeper://zookeeper:2181
+      - admin.config-center=zookeeper://zookeeper:2181
+      - admin.metadata-report.address=zookeeper://zookeeper:2181
+      - admin.root.password=root
+      - admin.guest.password=guest

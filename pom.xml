@@ -32,6 +32,9 @@
         <module>springboot-thread-async</module>
         <module>springboot-mybatis-generator</module>
         <module>springboot-mybatis-generator2</module>
+        <module>springboot-dubbo</module>
+        <module>dubbo</module>
+        <module>springboot-dubbo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

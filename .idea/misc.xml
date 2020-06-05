@@ -24,7 +24,17 @@
         <option value="$PROJECT_DIR$/springboot-interceptor/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis-generator/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis-generator2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo/dubbo-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo/dubbo-consumer/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

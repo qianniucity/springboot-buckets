@@ -16,22 +16,31 @@
         <module name="springboot-echarts" />
         <module name="springboot-aop-transactional" />
         <module name="springboot-thread-async" />
-        <module name="springboot-mybatis-generator2" />
+        <module name="springboot-common" />
         <module name="springboot-mongodb" />
+        <module name="springboot-dubbo" />
         <module name="springboot-aop-limit" />
-        <module name="springboot-aop-exception" />
+        <module name="springboot-async" />
+        <module name="dubbo-provider" />
         <module name="springboot-batch" />
+        <module name="dubbo-interface" />
+        <module name="dubbo-consumer" />
         <module name="springboot-cxf" />
         <module name="springboot-mybatis-generator" />
+        <module name="springboot-mybatis-generator2" />
         <module name="springboot-aop-validate" />
-        <module name="springboot-async" />
         <module name="springboot-interceptor" />
-        <module name="springboot-common" />
+        <module name="dubbo" />
+        <module name="springboot-aop-exception" />
         <module name="springboot-aop-format" />
         <module name="springboot-hibernate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbo" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-interface" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-aop-exception" target="1.8" />
       <module name="springboot-aop-format" target="1.8" />
@@ -46,6 +55,7 @@
       <module name="springboot-captcha" target="1.8" />
       <module name="springboot-common" target="1.8" />
       <module name="springboot-cxf" target="1.8" />
+      <module name="springboot-dubbo" target="1.8" />
       <module name="springboot-echarts" target="1.8" />
       <module name="springboot-filter" target="1.8" />
       <module name="springboot-hibernate" target="1.8" />
@@ -62,6 +72,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo" options="-parameters" />
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-interface" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
       <module name="springboot-aop" options="" />
       <module name="springboot-aop-exception" options="-parameters" />
       <module name="springboot-aop-format" options="-parameters" />
@@ -75,6 +89,7 @@
       <module name="springboot-captcha" options="-parameters" />
       <module name="springboot-common" options="-parameters" />
       <module name="springboot-cxf" options="-parameters" />
+      <module name="springboot-dubbo" options="-parameters" />
       <module name="springboot-echarts" options="-parameters" />
       <module name="springboot-filter" options="-parameters" />
       <module name="springboot-hibernate" options="-parameters" />
