@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-common" />
+        <module name="spring-shiro-vue" />
         <module name="springboot-interceptor" />
         <module name="springboot-mybatis-generator" />
+        <module name="mq-provider" />
         <module name="mq-base" />
         <module name="springboot-cxf" />
         <module name="dubbo-interface" />
@@ -19,9 +21,7 @@
         <module name="springboot-hibernate" />
         <module name="springboot-echarts" />
         <module name="dubbo-provider" />
-        <module name="mq-java" />
         <module name="springboot-cache" />
-        <module name="springboot-aop-exception" />
         <module name="dubbo-consumer" />
         <module name="springboot-aop-limit" />
         <module name="mq-consumer" />
@@ -31,16 +31,19 @@
         <module name="springboot-batch" />
         <module name="springboot-thread-async" />
         <module name="springboot-aop-log" />
+        <module name="springboot-aop-exception" />
         <module name="springboot-aop-validate" />
-        <module name="mq-provider" />
+        <module name="springboot-aop-format" />
         <module name="springboot-aop-transactional" />
+        <module name="back" />
         <module name="springboot-mongodb" />
         <module name="springboot-async" />
         <module name="dubbo" />
-        <module name="springboot-aop-format" />
+        <module name="mq-java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="back" target="1.8" />
       <module name="dubbo" target="1.8" />
       <module name="dubbo-consumer" target="1.8" />
       <module name="dubbo-interface" target="1.8" />
@@ -49,6 +52,7 @@
       <module name="mq-consumer" target="1.8" />
       <module name="mq-java" target="1.8" />
       <module name="mq-provider" target="1.8" />
+      <module name="spring-shiro-vue" target="1.8" />
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-aop-exception" target="1.8" />
       <module name="springboot-aop-format" target="1.8" />
@@ -81,6 +85,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="back" options="-parameters" />
       <module name="dubbo" options="-parameters" />
       <module name="dubbo-consumer" options="-parameters" />
       <module name="dubbo-interface" options="-parameters" />
@@ -89,6 +94,7 @@
       <module name="mq-consumer" options="-parameters" />
       <module name="mq-java" options="-parameters" />
       <module name="mq-provider" options="-parameters" />
+      <module name="spring-shiro-vue" options="-parameters" />
       <module name="springboot-aop" options="" />
       <module name="springboot-aop-exception" options="-parameters" />
       <module name="springboot-aop-format" options="-parameters" />
