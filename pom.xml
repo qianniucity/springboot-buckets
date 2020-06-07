@@ -35,6 +35,7 @@
         <module>springboot-dubbo</module>
         <module>dubbo</module>
         <module>springboot-dubbo</module>
+        <module>springboot-rabbitmq</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

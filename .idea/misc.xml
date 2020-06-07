@@ -28,6 +28,8 @@
         <option value="$PROJECT_DIR$/springboot-dubbo/dubbo-interface/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-dubbo/dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-dubbo/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/mq-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/mq-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

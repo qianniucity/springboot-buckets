@@ -1,0 +1,8 @@
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: dubbo
+    password: 123
+    virtual-host: dubbo

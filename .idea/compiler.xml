@@ -7,33 +7,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-cache" />
-        <module name="springboot-jpa" />
-        <module name="springboot-captcha" />
-        <module name="springboot-restful" />
-        <module name="springboot-filter" />
-        <module name="springboot-aop-log" />
-        <module name="springboot-echarts" />
-        <module name="springboot-aop-transactional" />
-        <module name="springboot-thread-async" />
         <module name="springboot-common" />
-        <module name="springboot-mongodb" />
-        <module name="springboot-dubbo" />
-        <module name="springboot-aop-limit" />
-        <module name="springboot-async" />
-        <module name="dubbo-provider" />
-        <module name="springboot-batch" />
-        <module name="dubbo-interface" />
-        <module name="dubbo-consumer" />
-        <module name="springboot-cxf" />
-        <module name="springboot-mybatis-generator" />
-        <module name="springboot-mybatis-generator2" />
-        <module name="springboot-aop-validate" />
         <module name="springboot-interceptor" />
-        <module name="dubbo" />
-        <module name="springboot-aop-exception" />
-        <module name="springboot-aop-format" />
+        <module name="springboot-mybatis-generator" />
+        <module name="mq-base" />
+        <module name="springboot-cxf" />
+        <module name="dubbo-interface" />
+        <module name="springboot-mybatis-generator2" />
+        <module name="springboot-jpa" />
+        <module name="springboot-restful" />
         <module name="springboot-hibernate" />
+        <module name="springboot-echarts" />
+        <module name="dubbo-provider" />
+        <module name="mq-java" />
+        <module name="springboot-cache" />
+        <module name="springboot-aop-exception" />
+        <module name="dubbo-consumer" />
+        <module name="springboot-aop-limit" />
+        <module name="mq-consumer" />
+        <module name="springboot-dubbo" />
+        <module name="springboot-captcha" />
+        <module name="springboot-filter" />
+        <module name="springboot-batch" />
+        <module name="springboot-thread-async" />
+        <module name="springboot-aop-log" />
+        <module name="springboot-aop-validate" />
+        <module name="mq-provider" />
+        <module name="springboot-aop-transactional" />
+        <module name="springboot-mongodb" />
+        <module name="springboot-async" />
+        <module name="dubbo" />
+        <module name="springboot-aop-format" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +45,10 @@
       <module name="dubbo-consumer" target="1.8" />
       <module name="dubbo-interface" target="1.8" />
       <module name="dubbo-provider" target="1.8" />
+      <module name="mq-base" target="1.8" />
+      <module name="mq-consumer" target="1.8" />
+      <module name="mq-java" target="1.8" />
+      <module name="mq-provider" target="1.8" />
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-aop-exception" target="1.8" />
       <module name="springboot-aop-format" target="1.8" />
@@ -64,6 +72,7 @@
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-mybatis-generator" target="1.8" />
       <module name="springboot-mybatis-generator2" target="1.8" />
+      <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-repeatsubmit" target="1.8" />
       <module name="springboot-restful" target="1.8" />
       <module name="springboot-result" target="1.8" />
@@ -76,6 +85,10 @@
       <module name="dubbo-consumer" options="-parameters" />
       <module name="dubbo-interface" options="-parameters" />
       <module name="dubbo-provider" options="-parameters" />
+      <module name="mq-base" options="-parameters" />
+      <module name="mq-consumer" options="-parameters" />
+      <module name="mq-java" options="-parameters" />
+      <module name="mq-provider" options="-parameters" />
       <module name="springboot-aop" options="" />
       <module name="springboot-aop-exception" options="-parameters" />
       <module name="springboot-aop-format" options="-parameters" />
@@ -98,6 +111,7 @@
       <module name="springboot-mongodb" options="-parameters" />
       <module name="springboot-mybatis-generator" options="-parameters" />
       <module name="springboot-mybatis-generator2" options="-parameters" />
+      <module name="springboot-rabbitmq" options="" />
       <module name="springboot-repeatsubmit" options="-parameters" />
       <module name="springboot-restful" options="-parameters" />
       <module name="springboot-result" options="-parameters" />
