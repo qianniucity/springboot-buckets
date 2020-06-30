@@ -7,6 +7,7 @@ import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSource
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
@@ -26,7 +27,7 @@ public class ShiroConfiguration {
 	 * Shiro的Web过滤器Factory 命名:shiroFilter
 	 */
 	@Bean(name = "shiroFilter")
-	public ShiroFilterFactoryBean shiroFilterFactoryBean(SecurityManager securityManager) {
+	public ShiroFilterFactoryBean shiroFilterFactoryBean(@Qualifier("securityManager") SecurityManager securityManager) {
 		ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
 		//Shiro的核心安全接口,这个属性是必须的
 		shiroFilterFactoryBean.setSecurityManager(securityManager);
@@ -55,9 +56,9 @@ public class ShiroConfiguration {
 	 * 不指定名字的话，自动创建一个方法名第一个字母小写的bean
 	 */
 	@Bean
-	public SecurityManager securityManager() {
+	public SecurityManager securityManager(@Qualifier("userRealm") UserRealm userRealm) {
 		DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
-		securityManager.setRealm(userRealm());
+		securityManager.setRealm(userRealm);
 		return securityManager;
 	}
 
@@ -110,9 +111,9 @@ public class ShiroConfiguration {
 	}
 
 	@Bean
-	public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor() {
+	public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(@Qualifier("userRealm") UserRealm userRealm) {
 		AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor = new AuthorizationAttributeSourceAdvisor();
-		authorizationAttributeSourceAdvisor.setSecurityManager(securityManager());
+		authorizationAttributeSourceAdvisor.setSecurityManager(securityManager(userRealm));
 		return authorizationAttributeSourceAdvisor;
 	}
 }

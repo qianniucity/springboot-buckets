@@ -4,7 +4,7 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/java/com/javaniuniu/async/thread/ThreadPoolConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/javaniuniu/thread/async/thread/ThreadPoolConfig.java</file>
         </fileset>
       </configuration>
     </facet>
