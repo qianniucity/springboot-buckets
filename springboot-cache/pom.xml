@@ -19,7 +19,7 @@
         <mybatis-plus.version>2.1.8</mybatis-plus.version>
         <mybatisplus-spring-boot-starter.version>1.0.5</mybatisplus-spring-boot-starter.version>
         <fastjson_version>1.2.28</fastjson_version>
-        <jackson-databind_version>2.10.1</jackson-databind_version>
+        <jackson-databind_version>2.10.5.1</jackson-databind_version>
     </properties>
 
     <dependencies>
