@@ -14,7 +14,7 @@
     <description>Spring Boot JPA 演示数据校验</description>
 
     <properties>
-        <fast.json>1.2.32</fast.json>
+        <fast.json>1.2.83</fast.json>
     </properties>
 
     <dependencies>
