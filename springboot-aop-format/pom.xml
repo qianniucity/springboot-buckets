@@ -14,7 +14,7 @@
     <description>Spring Boot 通过注解的形式去除请求参数首尾空格</description>
 
     <properties>
-        <fast.json>1.2.32</fast.json>
+        <fast.json>1.2.83</fast.json>
     </properties>
 
     <dependencies>
